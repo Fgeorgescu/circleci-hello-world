@@ -7,7 +7,7 @@ jobs:
     steps:
       - test echo
       - run: 
-        name: "Echo command"
+        name: Echo command
         command: "print('echo')"
 # Use a package of configuration called an orb.
 orbs:
