@@ -20,6 +20,15 @@ jobs:
             - run: 
                 name: ls ../..
                 command: "ls ../.. -la"
+            - run: 
+                name: Combination
+                command: |
+                    pwd
+                    ls -la
+                    pwd
+                    ls .. -la
+                    pwd
+                    ls ../.. -la
 # Use a package of configuration called an orb.
 orbs:
   # Declare a dependency on the welcome-orb
