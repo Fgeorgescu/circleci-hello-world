@@ -20,7 +20,7 @@ workflows:
     # Run the welcome/run job in its own container
     jobs:
       - welcome/run
-      - testecho:
+      - echo:
             requires:
                 - welcome/run
   # Name the workflow "Echo"
