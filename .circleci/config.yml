@@ -8,6 +8,9 @@ jobs:
             - run: 
                 name: Echo command
                 command: "echo 'testing echo command'"
+            - run: 
+                name: PWD
+                command: "pwd"
 # Use a package of configuration called an orb.
 orbs:
   # Declare a dependency on the welcome-orb
