@@ -14,6 +14,12 @@ jobs:
             - run: 
                 name: ls
                 command: "ls -la"
+            - run: 
+                name: ls ..
+                command: "ls .. -la"
+            - run: 
+                name: ls ../..
+                command: "ls ../.. -la"
 # Use a package of configuration called an orb.
 orbs:
   # Declare a dependency on the welcome-orb
