@@ -5,6 +5,7 @@ jobs:
     docker:
       image: circleci/python:3.7.3
     steps:
+      - test echo
       - run: 
         name: "Echo command"
         command: "print('echo')"
