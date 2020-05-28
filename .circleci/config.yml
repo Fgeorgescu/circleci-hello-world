@@ -21,8 +21,8 @@ workflows:
     jobs:
       - welcome/run
       - testecho:
-        requires:
-          welcome/run
+            requires:
+                - welcome/run
   # Name the workflow "Echo"
      
       
