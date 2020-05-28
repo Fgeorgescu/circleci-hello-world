@@ -3,6 +3,7 @@ version: 2.1
 jobs:
     echo:
         steps:
+            - image: circleci/python:3.7.3
             - run: 
                 name: Echo command
                 command: "echo 'testing echo command'"
